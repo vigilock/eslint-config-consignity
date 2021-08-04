@@ -1,11 +1,11 @@
 module.exports = {
   extends: 'eslint:recommended',
   rules: {
-    indent: ['warn', 2],
+    indent: ['error', 2],
     quotes: ['warn', 'single'],
     semi: ['error', 'never'],
+    'no-extra-semi': 'error',
     'linebreak-style': ['warn', 'unix'],
-    'prettier/prettier': 'error',
     'no-unused-vars': 'warn',
     'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
     'new-cap': 'error',
@@ -14,8 +14,13 @@ module.exports = {
     'no-param-reassign': ['error', { props: false }],
     'object-curly-newline': ['error', { multiline: true }],
     'no-use-before-define': ['error', { functions: false, variables: false }],
-
-    // Comments
+    'array-element-newline': [
+      'error',
+      {
+        ArrayExpression: 'consistent',
+        ArrayPattern: { minItems: 3 },
+      },
+    ],
     'no-warning-comments': [
       'error',
       {
@@ -23,5 +28,6 @@ module.exports = {
         location: 'anywhere',
       },
     ],
+    'arrow-parens': ['off', 'as-needed'],
   },
 }
