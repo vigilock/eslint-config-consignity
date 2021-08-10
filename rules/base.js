@@ -9,7 +9,16 @@ module.exports = {
     'no-unused-vars': 'warn',
     'no-console': ['warn', { allow: ['warn', 'error', 'info'] }],
     'new-cap': 'error',
-    'no-underscore-dangle': ['error', { allow: ['_id', '_execute', '__basedir'] }],
+    'no-underscore-dangle': [
+      'error',
+      {
+        allow: ['_id', '_execute', '__basedir'],
+        allowAfterThis: true,
+        allowAfterSuper: true,
+        allowAfterThisConstructor: true,
+        enforceInMethodNames: true,
+      },
+    ],
     'max-len': ['error', { code: 150 }],
     'no-param-reassign': ['error', { props: false }],
     'object-curly-newline': ['error', { multiline: true }],
@@ -29,5 +38,6 @@ module.exports = {
       },
     ],
     'arrow-parens': ['off', 'as-needed'],
+    'no-plusplus': 'off',
   },
 }

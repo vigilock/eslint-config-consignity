@@ -7,7 +7,9 @@ module.exports = {
         require: {
           FunctionExpression: true,
           ClassDeclaration: true,
+          MethodDefinition: true,
         },
+        exemptEmptyConstructors: false,
       },
     ],
     'jsdoc/check-param-names': 'warn',
