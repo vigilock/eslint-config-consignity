@@ -16,7 +16,7 @@ module.exports = {
         allowAfterThis: true,
         allowAfterSuper: true,
         allowAfterThisConstructor: true,
-        enforceInMethodNames: true,
+        enforceInMethodNames: false,
       },
     ],
     'max-len': ['error', { code: 150 }],
