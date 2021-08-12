@@ -1,7 +1,7 @@
 module.exports = {
   extends: 'eslint:recommended',
   rules: {
-    indent: ['error', 2],
+    indent: ['error', 2, { SwitchCase: 1 }],
     quotes: ['warn', 'single', { avoidEscape: true }],
     semi: ['error', 'never'],
     'no-extra-semi': 'error',
