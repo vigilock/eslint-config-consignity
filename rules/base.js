@@ -39,5 +39,13 @@ module.exports = {
     ],
     'arrow-parens': ['off', 'as-needed'],
     'no-plusplus': 'off',
+    camelcase: [
+      'error',
+      {
+        properties: 'always',
+        ignoreDestructuring: false,
+        ignoreImports: false,
+      },
+    ],
   },
 }
