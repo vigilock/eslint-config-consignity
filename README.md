@@ -1,3 +1,5 @@
+[![Publish Package](https://github.com/vigilock/eslint-config-consignity/actions/workflows/publish.yaml/badge.svg)](https://github.com/vigilock/eslint-config-consignity/actions/workflows/publish.yaml)
+
 # eslint-config-consignity
 
 This package provide eslint configuration for all consignity projects.
