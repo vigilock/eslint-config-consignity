@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-consignity",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Provide eslint configuration",
   "main": "index.cjs",
   "scripts": {
@@ -23,23 +23,23 @@
   },
   "homepage": "https://github.com/vigilock/eslint-config-consignity#readme",
   "peerDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jest": "^24.4.0",
-    "eslint-plugin-jsdoc": "^36.0.6",
-    "eslint-plugin-prettier": "^3.4.0",
-    "prettier": "^2.3.2"
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-jsdoc": "^39.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.4"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jest": "^24.4.0",
-    "eslint-plugin-jsdoc": "^36.0.6",
-    "eslint-plugin-prettier": "^3.4.0",
-    "prettier": "^2.3.2"
+    "eslint-plugin-jest": "^27.2.1",
+    "eslint-plugin-jsdoc": "^39.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.8.4"
   }
 }

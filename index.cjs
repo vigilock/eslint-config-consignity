@@ -4,7 +4,14 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: ['airbnb-base', './rules/base.js', './rules/jest.js', './rules/jsdoc.js', './rules/import.js', './rules/prettier.js'],
+  extends: [
+    'airbnb-base',
+    './rules/base.js',
+    './rules/jest.js',
+    './rules/jsdoc.js',
+    './rules/import.js',
+    './rules/prettier.js',
+  ],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
