@@ -11,6 +11,7 @@ module.exports = {
     './rules/jsdoc.js',
     './rules/import.js',
     './rules/prettier.js',
+    'plugin:security/recommended',
   ],
   parserOptions: {
     ecmaVersion: 'latest',
