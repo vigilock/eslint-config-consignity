@@ -28,4 +28,4 @@ module.exports = {
     'jsdoc/require-returns-description': 'warn',
     'jsdoc/require-returns-type': 'warn',
   },
-}
+};

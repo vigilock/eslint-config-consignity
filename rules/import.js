@@ -1,7 +1,6 @@
 module.exports = {
   plugins: ['import'],
   rules: {
-    'import/extensions': ['error', 'always'],
     'import/newline-after-import': ['error', { count: 1 }],
     'import/order': [
       'error',

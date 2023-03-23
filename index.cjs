@@ -10,7 +10,6 @@ module.exports = {
     './rules/jest.js',
     './rules/jsdoc.js',
     './rules/import.js',
-    './rules/prettier.js',
     'plugin:security/recommended',
   ],
   parserOptions: {
@@ -19,4 +18,4 @@ module.exports = {
     ecmaFeatures: { jsx: true },
   },
   rules: {},
-}
+};
