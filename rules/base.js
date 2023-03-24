@@ -3,6 +3,7 @@ module.exports = {
   rules: {
     indent: ['error', 2, { SwitchCase: 1 }],
     'no-tabs': 'error',
+    curly: 'error',
     'comma-dangle': ['warn', 'always-multiline'],
     quotes: ['warn', 'single', { avoidEscape: true }],
     'no-extra-semi': 'error',
@@ -58,6 +59,7 @@ module.exports = {
     'no-undefined': 'error',
     'require-await': 'error',
     'valid-typeof': 'error',
+    'no-await-in-loop': 'warn',
     'no-template-curly-in-string': 'error',
     'no-unsafe-negation': 'error',
     'no-prototype-builtins': 'error',
@@ -73,5 +75,6 @@ module.exports = {
     'no-var': 'error',
     'prefer-const': 'error',
     'prefer-promise-reject-errors': 'error',
+    'import/extensions': ['warn', 'ignorePackages'],
   },
 };
