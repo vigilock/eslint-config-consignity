@@ -3,7 +3,7 @@ module.exports = {
   rules: {
     indent: ['error', 2, { SwitchCase: 1 }],
     'no-tabs': 'error',
-    curly: 'error',
+    curly: ['error', 'all'],
     'comma-dangle': ['warn', 'always-multiline'],
     quotes: ['warn', 'single', { avoidEscape: true }],
     'no-extra-semi': 'error',
